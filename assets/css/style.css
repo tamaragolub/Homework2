@@ -65,13 +65,27 @@ a {
     height: 500px;
     box-shadow: #666666;
     box-shadow: 50px;
+    margin-top: 5%;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 0px;  
+    height: 500px;
+    box-shadow: #666666;
+    box-shadow: 50px;
+    margin-top: 5%;
 }
 
 #about-me {
     color: #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: bold;
     color: teal;
     margin: 20px;
@@ -162,10 +176,43 @@ form {
 
 /* portfolio editing starts here */
 
-img {
+/* img {
     float: left;
     height: 150px;
     padding: 20px;
     padding-top: 13px;
     width: 150px;
+} */
+
+.portfolio-images {
+    position: relative;
+    float: left;
+    width: 150px;
+    margin: 20px 25px;
+    overflow: auto;
+    height: 150px;
+}
+
+.portfolio-images:nth-child(even) {
+    margin-right: 40px;
+}
+
+.portfolio-images img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+
+.portfolio-images h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
 }
