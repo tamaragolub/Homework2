@@ -12,6 +12,7 @@ header {
     height: 10%;
     width: 100vw;
     background-color:#ffffff;
+   z-index: 10;
 }
 
 /* .nav-bar {
@@ -78,7 +79,7 @@ a {
     height: 500px;
     box-shadow: #666666;
     box-shadow: 50px;
-    margin-top: 5%;
+    margin-top: 20%;
 }
 
 #about-me {
@@ -216,3 +217,22 @@ form {
   background: #4aaaa5;
   border-bottom: 0;
 }
+
+/* Responsive Layout */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+padding:100%;
+margin: 100%;
+.container: margin-top: auto;
+.wrapping: margin-top: auto;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
