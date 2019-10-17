@@ -14,13 +14,19 @@ header {
     background-color:#ffffff;
 }
 
-.nav-bar {
+/* .nav-bar {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-}
+} */
 
+.wrapping {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 100%; */
+}
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
