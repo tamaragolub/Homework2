@@ -10,47 +10,63 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
+    <style>
+        .img-wrapper {
+            width: 100%;
+        }
+
+        @media screen and (min-width: 768px) {
+            .img-wrapper {
+                width: 50%;
+            }
+        }
+
+        @media screen and (min-width: 992px) {
+            .img-wrapper {
+                width: 33%;
+            }
+        }
+    </style>
+
     <title>Tamara Golub</title>
 </head>
 
 <body class="bg-light">
-    <div class="row bg-white shadow-sm">
+    <div class="row no-gutters bg-white shadow-sm">
         <div class="col-md-6 text-center text-white">
-            <h1 class="p-4 mb-0 bg-info">Tamara Golub</h1>
+            <h1 class="float-md-left p-4  ml-md-3 mb-0 bg-info">Tamara Golub</h1>
         </div>
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <a class="m-3 text-muted" href="index2.html"> About </a> |
-            <a class="m-3 text-muted" href="portfolio2.html"> Portfolio </a> |
-            <a class="m-3 text-muted" href="contact2.html"> Contact </a> |
+        <div class="col-md-6 d-flex flex-row justify-content-center align-items-center">
+            <a class="m-3 ml-md-auto text-muted" href="index2.html"> About </a> |
+            <a class="m-3 ml-md-auto text-muted" href="portfolio2.html"> Portfolio </a> |
+            <a class="m-3 ml-md-auto text-muted" href="contact2.html"> Contact </a>
         </div>
     </div>
 
     <div class="row">
-        <div class="col">
+        <div class="col-lg-9">
             <div class="card m-3 mb-5">
-                <div class="card-body">
+                <div class="card-body text-muted">
                     <h1 class="text-info">About Me</h1>
                     <br>
-                    <img id="profile-pic" src="assets/images/Profile Picture.jpg" class="img-fluid mb-3" alt="picture of me">
-                        
+                    <div class="img-wrapper float-md-left mb-3 mr-md-3">
+                        <img id="profile-pic" src="assets/images/Profile Picture.jpg" class="img-fluid"
+                            alt="picture of me">
+                    </div>
+
+
                     <p> What can I say about me? Let's just say that I am hard to forget. I am a fun, and outgoing
-                        person. I
-                        love a challenge. I am always learning something new. I love photography and music. </p>
+                        person. I love a challenge. I am always learning something new. I love photography and music.
+                    </p>
 
                     <p>A little about my background: I was born in Ukraine. I came to America when I was 5 years old,
-                        and
-                        grew
-                        up in Portland, OR. When I was 18, I moved to Charlotte, NC and have lived here since then. I
-                        love
-                        living
-                        here. It is a beautiful, fast-paced, growing city. </p>
+                        and grew up in Portland, OR. When I was 18, I moved to Charlotte, NC and have lived here since
+                        then. I
+                        love living here. It is a beautiful, fast-paced, growing city. </p>
 
                     <p>I am really excited about this course. So far, it has been a challenge, but in a good way. All
-                        good
-                        things take time to develop. But how I know that I enjoy it, not only from my inner excitement,
-                        but
-                        becuase
-                        I do not dread waking up early just to come to class!! </p>
+                        good things take time to develop. But I know that I enjoy it, not only from my inner excitement,
+                        but because I do not dread waking up early just to come to class!! </p>
                 </div>
             </div>
         </div>
