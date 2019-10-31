@@ -20,6 +20,18 @@
             width: 100%;
         }
 
+        body {
+            background: url("./assets/images/BackgroundImage.png");
+        }
+
+        .navElement {
+            margin: 5%;
+        }
+
+        .sectionTitle {
+            border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+        }
+
         @media screen and (min-width: 768px) {
             .img-wrapper {
                 width: 50%;
@@ -34,6 +46,7 @@
     </style>
 
     <title>Tamara Golub</title>
+
 </head>
 
 <body class="bg-light">
@@ -42,9 +55,9 @@
             <h1 class="float-md-left p-4  ml-md-3 mb-0 bg-info">Tamara Golub</h1>
         </div>
         <div class="col-md-6 d-flex flex-row justify-content-center align-items-center">
-            <a class="m-3 ml-md-auto text-muted" href="index.html"> About </a>|
-            <a class="m-3 ml-md-auto text-muted" href="portfolio.html"> Portfolio </a>|
-            <a class="m-3 ml-md-auto text-muted p-3 mr-10" href="contact.html">Contact</a>
+            <a class="navElement text-muted" href="index.html"> About </a>|
+            <a class="navElement text-muted" href="portfolio.html"> Portfolio </a>|
+            <a class="navElement text-muted" href="contact.html">Contact</a>
         </div>
     </div>
 
@@ -52,7 +65,7 @@
         <div class="col-lg-9">
             <div class="card m-3 mb-5">
                 <div class="card-body text-muted">
-                    <h1 class="text-info border-bottom">Contact </h1>
+                    <h1 class="text-info sectionTitle">Contact </h1>
                     <br>
                     <div class="row">
                         <div class="col">

@@ -11,8 +11,18 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
     <style>
+        body {
+            background: url("./assets/images/BackgroundImage.png");
+        }
+
         .img-wrapper {
             width: 100%;
+        }
+        .navElement {
+            margin: 5%;
+        }
+        .sectionTitle {
+            border-bottom: 5px solid rgba(0,0,0,0.1);
         }
 
         @media screen and (min-width: 768px) {
@@ -31,15 +41,15 @@
     <title>Tamara Golub</title>
 </head>
 
-<body class="bg-light">
+<body>
     <div class="row no-gutters bg-white shadow-sm">
         <div class="col-md-6 text-center text-white">
             <h1 class="float-md-left p-4  ml-md-3 mb-0 bg-info">Tamara Golub</h1>
         </div>
         <div class="col-md-6 d-flex flex-row justify-content-center align-items-center">
-            <a class="m-3 ml-md-auto text-muted" href="index.html"> About </a>|
-            <a class="m-3 ml-md-auto text-muted" href="portfolio.html"> Portfolio </a>|
-            <a class="m-3 ml-md-auto text-muted p-3 mr-10" href="contact.html">Contact</a>
+            <a class="navElement text-muted" href="index.html"> About </a>|
+            <a class="navElement text-muted" href="portfolio.html"> Portfolio </a>|
+            <a class="navElement text-muted" href="contact.html">Contact</a>
         </div>
     </div>
 
@@ -47,10 +57,11 @@
         <div class="col-lg-9">
             <div class="card m-3 mb-5">
                 <div class="card-body text-muted">
-                    <h1 class="text-info border border-bottom">About Me</h1>
+                    <h1 class="text-info sectionTitle">About Me</h1>
                     <br>
                     <div class="img-wrapper float-md-left mb-3 mr-md-3">
-                        <img id="profile-pic" src="assets/images/ProfilePicture.jpg" class="img-fluid rounded" alt="picture of me">
+                        <img id="profile-pic" src="assets/images/ProfilePicture.jpg" class="img-fluid rounded"
+                            alt="picture of me">
                     </div>
 
 
